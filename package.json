@@ -1,0 +1,26 @@
+{
+  "name": "challenge-12",
+  "version": "1.0.0",
+  "description": "Module 12 challenge - Team profile generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrkCM/Challenge-12"
+  },
+  "author": "Angel Castaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrkCM/Challenge-12"
+  },
+  "homepage": "https://github.com/DrkCM/Challenge-12",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "jest": "^29.7.0"
+  }
+}
