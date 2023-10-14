@@ -47,7 +47,7 @@ const appMenu = () => {
          message: "What is your intern school"
         }
        ]).then(answers => {
-          const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internGithub);
+          const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
           teamMembers.push(intern);
           idList.push(answers.internId);
           createTeam()
@@ -141,7 +141,6 @@ const appMenu = () => {
        }
     ]).then(answers => {
          const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
-         console.log(manager);
          teamMembers.push(manager);
          idList.push(answers.managerId);
          createTeam();
